@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<string.h>
+#include <Morse.h>
+#define Q if(a[i]==
+Morse morse(13);
+ char a[100];
+void setup()
+{ Serial.begin(9600);//设置波特率为9600
+}
+void loop()
+{ int i=0;
+  if(Serial.available() > 0){
+  for(;i<100;1++) a[i]=Serial.read();
+    for(;i<100;1++){
+    Q 97) {mouse.dot() mouse.dash() delay(1000)}
+    Q 98) {mouse.dash() mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 99) {mouse.dash() mouse.dot() mouse.dash() mouse.dot() delay(1000)}
+    Q 100){ mouse.dash() mouse.dot() mouse.dot() delay(1000)}
+    Q 101){mouse.dot() delay(1000)}
+    Q 102){mouse.dot() mouse.dot() mouse.dash() mouse.dot() delay(1000)}
+    Q 103){mouse.dash() mouse.dash() mouse.dot() delay(1000)}
+    Q 104){mouse.dot() mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 105){mouse.dot() mouse.dot() delay(1000)}
+    Q 106){mouse.dot() mouse.dash() mouse.dash() mouse.dash() delay(1000)}
+    Q 107){mouse.dash() mouse.dot() mouse.dash() delay(1000)}
+    Q 108){mouse.dot() mouse.dash() mouse.dot() mouse.dot() delay(1000)}
+    Q 109){mouse.dash() mouse.dash() delay(1000)}
+    Q 110){mouse.dash() mouse.dot() delay(1000)}
+    Q 111){mouse.dash() mouse.dash() mouse.dash() delay(1000)}
+    Q 112){mouse.dot() mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 113){mouse.dot() mouse.dot() mouse.dot() mouse.dash() delay(1000)}
+    Q 114){mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 115){mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 116){mouse.dot() delay(1000)}
+    Q 117){mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 118){mouse.dot() mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 119){mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 120){mouse.dot() mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 121){mouse.dot() mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 122){mouse.dot() mouse.dot() mouse.dot() mouse.dot() delay(1000)}
+    Q 32){delay(1000)}
+}}}
