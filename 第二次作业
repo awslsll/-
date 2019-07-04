@@ -1,0 +1,11 @@
+#include<reg52.h>
+sbit DU=P2^6;
+void DELAYMS(int a){
+  int x,y;
+  for(x=0;x<a;x++){
+    for(y=0;y<114;y++);}}
+void main(void){
+  char dsite[]={0X3F,0X06,0X5B,0X4F,0X66,0X6D,0X7D,0X07,0X7F,0X6F};
+  int i;
+  DU=1;P0=dsite[i];DU=0;
+  while(1);}
