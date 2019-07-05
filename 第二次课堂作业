@@ -1,0 +1,59 @@
+char a[100];
+int pin=2;
+int _dottime=250;
+void mousedot()
+{
+  digitalWrite(pin,HIGH);
+  delay(_dottime);
+  digitalWrite(pin,LOW);
+  delay(_dottime);
+}
+
+void mousedash()
+{
+  digitalWrite(pin,HIGH);
+  delay(_dottime*4);
+  digitalWrite(pin,LOW);
+  delay(_dottime);
+}
+#define Q if(a[i]==
+#define A mousedot();//宏定义摩斯电码的点
+#define B mousedash();//宏定义摩斯电码的下划线
+#define C delay(1000);
+void setup()
+{ Serial.begin(9600);//设置波特率为9600
+}
+void loop()
+{ int i=0;
+  if(Serial.available() > 0){
+  a[i]=Serial.read();
+ 
+    Q 97) {A B C}
+    Q 98) {B A A A C}
+    Q 99) {B A B A C}
+    Q 100){ B A A C}
+    Q 101){A C}
+    Q 102){A A B A C}
+    Q 103){B B A C}
+    Q 104){A A A A C}
+    Q 105){A A C}
+    Q 106){A B B B C}
+    Q 107){B A B C}
+    Q 108){A B A A C}
+    Q 109){B B C}
+    Q 110){B A C}
+    Q 111){B B B C}
+    Q 112){A B B A C}
+    Q 113){B B A B C}
+    Q 114){A B A C}
+    Q 115){A A A C}
+    Q 116){B C}
+    Q 117){A A B C}
+    Q 118){A A A B C}
+    Q 119){A B B C}
+    Q 120){B A A B C}
+    Q 121){B A B B C}
+    Q 122){B B A A C}
+    Q 32){C}
+}
+}
